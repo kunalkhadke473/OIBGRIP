@@ -1,0 +1,821 @@
+<!--OASIS INFOBYTE GRIP - INTERSHIP
+         Name: Kunal Khadke
+          LEVEL-1 TASK-1
+          LANDING PAGE
+          Car e-showroom website page
+-->
+
+<html>
+<HEAD>
+<title>
+LAMBORGINI OFFICIAL 
+</title>
+<link rel="icon" href="https://drive.google.com/uc?export=view&id=1aneQoFE1IA4XuosBBJv8gyTGE3sgWQFb" type="image/gif" sizes="16x16">
+<STYLE>
+.button {
+  background-color:white;
+  border: none;
+  color: #e62e00;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 3px;
+  cursor: pointer;
+   border: 3px solid black;
+}
+.button:hover {
+  background-color:black;
+  color:#e62e00;
+   border: 3px solid white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition:0.6s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1 {
+  background-color: white; 
+  color: #008CBA; 
+  border: 3px solid black;
+}
+
+.button1:hover {
+  background-color:#008CBA;
+  color: white;
+}
+
+
+
+a.one:link {color:black;
+            font-size:110%;  
+			}
+
+a.one:visited {color:black;
+            font-size:110%;
+		  }
+
+a.one:hover {color:#3333ff;
+            font-size:110%;
+			background-color:black;  
+			padding: 5px 15px;
+			border-radius: 12px;
+			}
+			
+a.one:active { color:#3333ff;
+               background-color:white;
+               text-decoration: underline;
+}
+
+
+
+a.two:link {color:#3333ff;
+            font-size:180%;
+			background-color:black;  
+			padding: 7px 23px;
+			}
+
+a.two:visited {color:#3333ff;
+                 font-size:180%;
+                background-color:black;  
+               padding: 7px 23px;
+			   }
+
+a.two:hover {  color:white;
+               font-size:180%; 
+			   background-color:black;  
+			   padding: 7px 23px;
+			   }
+a.two:active { color:#3333ff;
+               background-color:white;
+               text-decoration: underline;
+}
+
+
+
+a.three:link {color:white;}
+
+a.three:visited {color:white;}
+
+a.three:hover {color:#3333ff;}
+
+
+
+
+a.four:link {color:black;
+            font-size:90%; 
+			text-decoration:none;
+			}
+
+a.four:visited {color:black;
+            font-size:90%;
+			text-decoration:none;
+		  }
+
+a.four:hover {color:black;
+            font-size:90%;
+			background-color:#e62e00;  
+			padding: 6px 10px;
+			text-decoration:none;
+			}
+			
+a.four:active { color:white;
+               background-color:#e62e00;
+               text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+.LAMBORGINI{ BACKGROUND-COLOR:BLACK;
+             COLOR:#e62e00;
+              PADDING:5PX;
+     font-family:courier ;
+     font-size:250%;
+}
+.LAMBORGINI111{ BACKGROUND-COLOR:BLACK;
+             COLOR:#e62e00;
+              PADDING:15PX;
+     font-family:courier ;
+     font-size:130%;
+}
+.LAMBORGINI2{ BACKGROUND-COLOR:BLACK;
+             COLOR:#e62e00;
+              PADDING:10PX;
+     font-family:courier ;
+     font-size:145%;
+}
+ body {BACKGROUND-IMAGE:URL(ic.jpg) ;
+       BACKGROUND-REPEAT: REPEAT;
+       BACKGROUND-SIZE:100%
+}
+TABLE {BORDER:7PX SOLID black;
+       border-spacing:1.5px;
+}
+TH ,td {BORDER:7PX SOLID black;
+    color:BLACK;
+     font-family:courier ;
+     font-size:100%;
+background-color: "#e62e00"; 
+  border-spacing:7px;
+  
+  border-collapse:collapse;
+        }
+h1  {color:BLACK;
+     font-family:courier ;
+     font-size:100%
+     border:3px solid black;     
+                    }
+P {
+   PADDING:15PX ;
+   margin:15px;
+     font-family:courier ;
+     font-size:100%
+}
+
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: black;
+  color:grey;
+}
+
+
+.tab button {
+  background-color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  COLOR:#e62e00;
+  
+  
+}
+
+
+.tab button:hover {
+  background-color: black;
+  color:blue;
+}
+
+
+.tab button.active {
+  background-color:black;
+  color:white;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid black;
+  border-top: none;
+  color:#e62e00;
+  font-size: 17px;
+  background-color: white;
+}
+
+form {
+        width: 400px;
+       margin-left: 920px;
+        margin-top: -30px;
+      }
+      input {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 16px;
+      }
+      .search {
+        width: 75%;
+		border-radius: 12px;
+      }
+      .submit {
+        width: 70px;
+        background-color:black;
+        color: #e62e00;
+		border-radius: 12px;
+      }
+
+.right {
+  background-color:black;
+  float:left;
+  width: 23%;
+  padding: 8px 8px;
+  margin-top: 3px;
+}
+
+
+        
+</STYLE>
+</head>
+<body bgcolor=" #e62e00">
+<body> 
+
+
+
+
+
+
+<a href="login.html" class="button"  style="vertical-align:middle"><span>Log-in</span></a>
+<a href="signup.html" class="button button1" style="vertical-align:middle"><span>Sign-up </span></a>
+
+
+
+
+
+ <form >
+      <input type="text" name="text" id="Car" class="search" list="Cars" placeholder="Search here!">
+      <input type="submit" name="submit" class="submit"  value="Search">
+  <datalist id="Cars">
+    <option value="LAMBORGINI  AVENTOR">
+    <option value="LAMBORGINI  GALLARDO">
+    <option value="LAMBORGINI  HURACAN">
+    <option value="LAMBORGINI  MURCIELAGO">
+	<option value="LAMBORGINI  CENTENARIO">
+ </datalist>
+ </form>
+
+
+
+
+<CENTER>
+<P2><table border="20" >
+<TR >
+        <TH > <B> SAFETY & SECURITY</B> </TH>
+        
+        <TH > <b> COMFORT AND CONVENIENCE </B></TH>
+        
+</TR>
+<TR>
+<TH>
+
+   1.  Airbags <BR>
+   2.  Passenger Airbags<BR>
+   3.  Side Airbags<BR>
+   4.  ABS<BR>
+   5.  Electronic Brakeforce Distribution<BR>
+   6.  Brake Assist<BR>
+   7.  Hill Assist<BR>
+   8.  Electronic Stability Program<BR>
+   9.  Tractional Control<BR>
+   10. Engine Immobilizer<BR>
+   11. Central Locking<BR>
+   12. Power Door Lock<BR>
+   13. Automatic Headlamps<BR>
+   14. Rain Sensing Wipers<BR>
+   15. Headlamp Beam Adjuster<BR>
+</TH>
+<TH>
+1.Air Conditioner - Automatic Climate Control<BR>
+2.Heater<BR>
+3.Steering Adjustment - Tilt & Telescopic<BR>
+4.Paddle Shift<BR>
+5.Cruise Control<BR>
+6.Power Outlets 12V<BR>
+7.Rear Parking Sensor<BR>
+8.Rear Parking Camera<BR>
+9.Electrically Adjustable Rear View Mirror<BR>
+10.Push Start Stop Button<BR>
+11.Height Adjustable Driver Seat<BR>
+12.Lumbar Support<BR>
+13.Front Armrest<BR>
+14.Upholstery - Leather<BR>
+15.Front Cup Holders<BR>
+16.Keyless Entry<BR>
+17.Climate Control<BR>
+</TH>
+</TR>
+</p2>
+
+
+
+
+
+
+
+
+
+
+
+<center>
+
+
+<H1  CLASS="LAMBORGINI111"> <marquee> WORLD'S FASTEST CAR IS HERE!!!! </marquee>    </H1>
+<P style=font-size:20px> <b>## WE SELL MONSTERS ## <b> </P>
+<H1   CLASS="LAMBORGINI"  id="c6"  > <marquee> <img src="https://drive.google.com/uc?export=view&id=1plQ4eEFO2N14ntqUatJKLWt6Jaqt7RwN" width="70" height="70"> <sup><sup>  LAMBORGINI OFFICIAL</sup> </sup>  <img src="https://drive.google.com/uc?export=view&id=1plQ4eEFO2N14ntqUatJKLWt6Jaqt7RwN" width="70" height="70"></marquee>    </H1>
+</CENTER>
+
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'HOME')">HOME</button>
+  <button class="tablinks" onclick="openCity(event, 'MODELS')">MODELS</button>
+  <button class="tablinks" onclick="openCity(event, 'COMPARE')"><a class="three" href="Compare.html"> COMPARE</a></button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a class="three" href="about.html"> ABOUT</a></button>
+</div>
+
+<div id="HOME" class="tabcontent">
+<p><font size=6> This is home page</font size=6> </p>
+</div>
+
+<div id="MODELS" class="tabcontent">
+  <p style="text-align:left;">   <font size=14> MODELS   </font size=14>    </p>
+  <h3 style="text-align:left;">
+<a class="four" href="#c1">1.LAMBORGINI  AVENTOR </a> <br>
+<a class="four" href="#c2">2.LAMBORGINI  GALLARDO </a> <br>
+<a class="four" href="#c3">3.LAMBORGINI  HURACAN </a> <br>
+<a class="four" href="#c4">4.LAMBORGINI  MURCIELAGO </a><br> 
+<a class="four" href="#c5">5.LAMBORGINI  CENTENARIO</a><br> </h3>
+</div>
+
+
+
+
+
+
+
+<P><a class="one" href="#c1"> ## 1.LAMBORGINI  AVENTOR  ## </a> </P>
+<P><a class="one" href="#c2"> ## 2.LAMBORGINI  GALLARDO ##  </a> </P>
+<P><a class="one" href="#c3"> ## 3.LAMBORGINI  HURACAN ##  </a> </P>
+<P><a class="one" href="#c4"> ## 4.LAMBORGINI  MURCIELAGO  ## </a> </P>
+<P><a class="one" href="#c5"> ## 5.LAMBORGINI  CENTENARIO  ## </a> </P>
+
+
+
+
+
+
+
+
+
+<H1  CLASS="LAMBORGINI2"  id="c1"  ><marquee>## 1.LAMBORGINI <SUB><BIG> AVENTOR </BIG>  </SUB> ## </marquee></H1>
+<p><marquee> 
+<img src="https://drive.google.com/uc?export=view&id=1d21uPDd3Ybrvl2uB-Zybd5pZNrtjx-mr" STYLE="FLOAT:RIGHT" width="600" height="400"> 
+<img src="https://drive.google.com/uc?export=view&id=1OD9tx8P2P-c9MRBRtofqcPXwVZ0JukWf" STYLE="FLOAT:RIGHT" width="600" height="400"> </marquee>
+  </p>
+<CENTER>
+<H1  CLASS="LAMBORGINI2"  >## 1.LAMBORGINI <SUB><BIG> AVENTOR </BIG>  </SUB> ## </H2>
+
+ <HR> 
+ <p style=font-size:18px  ;">       #1 ON-ROAD Price <BR>
+      RS: 5,74,45,856<BR>
+<HR>
+
+  <p style=font-size:18px  ;">      #2 Ex-showroom <br>
+        RS: 5,01,00,000<br>
+<HR>
+        <p style=font-size:18px  ;">            #3 Insurance<BR>
+                    RS: 19,60,106<BR>
+<HR>
+            <p style=font-size:18px  ;">                     #4 RTO Amount<BR>
+                               RS: 50,10,000<BR>
+<HR>
+               <p style=font-size:18px ;">                                #5 TCS<BR>
+                                              RS: 3,75,750<BR>
+<HR><HR>
+</PR>
+</CENTER>
+
+<H1  CLASS="LAMBORGINI2" > <B>** Aventador LP 700-4 Features **<B> </H2>
+
+<HR><HR>
+
+
+
+<CENTER>
+<P1><table border="20" >
+<TR >
+        <TH > <B> SAFETY & SECURITY</B> </TH>
+        
+        <TH > <b> COMFORT AND CONVENIENCE </B></TH>
+        
+</TR>
+<TR>
+<TH>
+
+   1.  Airbags <BR>
+   2.  Passenger Airbags<BR>
+   3.  Side Airbags<BR>
+   4.  ABS<BR>
+   5.  Electronic Brakeforce Distribution<BR>
+   6.  Brake Assist<BR>
+   7.  Hill Assist<BR>
+   8.  Electronic Stability Program<BR>
+   9.  Tractional Control<BR>
+   10. Engine Immobilizer<BR>
+   11. Central Locking<BR>
+   12. Power Door Lock<BR>
+   13. Automatic Headlamps<BR>
+   14. Rain Sensing Wipers<BR>
+   15. Headlamp Beam Adjuster<BR>
+</TH>
+<TH>
+1.Air Conditioner - Automatic Climate Control<BR>
+2.Heater<BR>
+3.Steering Adjustment - Tilt & Telescopic<BR>
+4.Paddle Shift<BR>
+5.Cruise Control<BR>
+6.Power Outlets 12V<BR>
+7.Rear Parking Sensor<BR>
+8.Rear Parking Camera<BR>
+9.Electrically Adjustable Rear View Mirror<BR>
+10.Push Start Stop Button<BR>
+11.Height Adjustable Driver Seat<BR>
+12.Lumbar Support<BR>
+13.Front Armrest<BR>
+14.Upholstery - Leather<BR>
+15.Front Cup Holders<BR>
+16.Keyless Entry<BR>
+17.Climate Control<BR>
+</TH>
+</TR>
+</p1>
+
+
+
+
+
+
+<P><a class="two" href="#c6">BACK</a> </P>
+
+
+<H1  CLASS="LAMBORGINI2" id="c2" ><marquee>## 2.LAMBORGINI <SUB><BIG> GALLARDO </BIG>  </SUB> ## </marquee></H1>
+<p><marquee> 
+<img src="https://drive.google.com/uc?export=view&id=1FBh3HA470cINtFyJry7Nz4Qmhesf0ST-" STYLE="FLOAT:RIGHT" width="600" height="400"> 
+<img src="https://drive.google.com/uc?export=view&id=1yLFglLia-6APQ6qF7-1dPcejp8Hp2J7d" STYLE="FLOAT:RIGHT" width="600" height="400"> </marquee>  </p>
+<CENTER>
+<H1  CLASS="LAMBORGINI2"  >## 2.LAMBORGINI <SUB><BIG> GALLARDO </BIG>  </SUB> ## </H2>
+
+ <HR> 
+ <p style=font-size:18px  ;">       #1 ON-ROAD Price<BR>
+      RS: 4.54 Crore<BR>
+<HR>
+
+  <p style=font-size:18px  ;">      #2 Ex-showroom<br>
+        RS: 3,67,82,832<br>
+<HR>
+        <p style=font-size:18px ;">            #3 Insurance<BR>
+                    RS: 19,88,265<BR>
+<HR>
+            <p style=font-size:18px ;">                     #4 RTO Amount<BR>
+                               RS: 44,76,752<BR>
+<HR>
+               <p style=font-size:18px ;">                                #5 TCS<BR>
+                                              RS: 3,77,838<BR>
+<HR><HR>
+</PR>
+</CENTER>
+<H1  CLASS="LAMBORGINI2"> <B>** GALLARDO LP 500-4 Features**<B> </H2>
+<HR><HR>
+
+
+<CENTER>
+<P2><table border="20" >
+<TR >
+        <TH > <B> SAFETY & SECURITY</B> </TH>
+        
+        <TH > <b> COMFORT AND CONVENIENCE </B></TH>
+        
+</TR>
+<TR>
+<TH>
+
+   1.  Airbags <BR>
+   2.  Passenger Airbags<BR>
+   3.  Side Airbags<BR>
+   4.  ABS<BR>
+   5.  Electronic Brakeforce Distribution<BR>
+   6.  Brake Assist<BR>
+   7.  Hill Assist<BR>
+   8.  Electronic Stability Program<BR>
+   9.  Tractional Control<BR>
+   10. Engine Immobilizer<BR>
+   11. Central Locking<BR>
+   12. Power Door Lock<BR>
+   13. Automatic Headlamps<BR>
+   14. Rain Sensing Wipers<BR>
+   15. Headlamp Beam Adjuster<BR>
+</TH>
+<TH>
+1.Air Conditioner - Automatic Climate Control<BR>
+2.Heater<BR>
+3.Steering Adjustment - Tilt & Telescopic<BR>
+4.Paddle Shift<BR>
+5.Cruise Control<BR>
+6.Power Outlets 12V<BR>
+7.Rear Parking Sensor<BR>
+8.Rear Parking Camera<BR>
+9.Electrically Adjustable Rear View Mirror<BR>
+10.Push Start Stop Button<BR>
+11.Height Adjustable Driver Seat<BR>
+12.Lumbar Support<BR>
+13.Front Armrest<BR>
+14.Upholstery - Leather<BR>
+15.Front Cup Holders<BR>
+16.Keyless Entry<BR>
+17.Climate Control<BR>
+</TH>
+</TR>
+</p2>
+
+<P><a class="two" href="#c6" >BACK </a> </P>
+
+<H1  CLASS="LAMBORGINI2" id="c3" ><marquee>## 3.LAMBORGINI <SUB><BIG> HURACAN </BIG>  </SUB> ##</marquee> </H1>
+<p><marquee> 
+<img src="https://drive.google.com/uc?export=view&id=1F4ty_Pw7UnQrK_aFhOIjLkrVHXI739j5" STYLE="FLOAT:RIGHT" width="600" height="400"> 
+<img src="https://drive.google.com/uc?export=view&id=1Mul471ghaaaHFXGHZacxW55MGnB7tYxc" STYLE="FLOAT:RIGHT" width="600" height="400"> </marquee>  </p>
+<CENTER>
+<H1  CLASS="LAMBORGINI2"  >## 3.LAMBORGINI <SUB><BIG> HURACAN </BIG>  </SUB> ## </H2>
+
+ <HR> 
+ <p style=font-size:18px ;">       #1 ON-ROAD Price<BR>
+      RS:3,7,300,000<BR>
+<HR>
+
+  <p style=font-size:18px ;">      #2 Ex-showroom<br>
+        RS: 3,7,300,000 <br>
+<HR>
+        <p style=font-size:18px ;">            #3 Insurance<BR>
+                    RS: 14,66,508<BR>
+<HR>
+            <p style=font-size:18px ;">                     #4 RTO Amount<BR>
+                               RS: 37,30,000<BR>
+<HR>
+               <p style=font-size:18px ;">                                #5 TCS<BR>
+                                              RS: 2,79,750<BR>
+<HR><HR>
+</PR>
+</CENTER>
+<H1  CLASS="LAMBORGINI2"> <B>** HURACAN GP 400-4 Features **<B> </H2>
+<HR><HR>
+
+<CENTER>
+<P2><table border="20" >
+<TR >
+        <TH > <B> SAFETY & SECURITY</B> </TH>
+        
+        <TH > <b> COMFORT AND CONVENIENCE </B></TH>
+        
+</TR>
+<TR>
+<TH>
+
+   1.  Airbags <BR>
+   2.  Passenger Airbags<BR>
+   3.  Side Airbags<BR>
+   4.  ABS<BR>
+   5.  Electronic Brakeforce Distribution<BR>
+   6.  Brake Assist<BR>
+   7.  Hill Assist<BR>
+   8.  Electronic Stability Program<BR>
+   9.  Tractional Control<BR>
+   10. Engine Immobilizer<BR>
+   11. Central Locking<BR>
+   12. Power Door Lock<BR>
+   13. Automatic Headlamps<BR>
+   14. Rain Sensing Wipers<BR>
+   15. Headlamp Beam Adjuster<BR>
+</TH>
+<TH>
+1.Air Conditioner - Automatic Climate Control<BR>
+2.Heater<BR>
+3.Steering Adjustment - Tilt & Telescopic<BR>
+4.Paddle Shift<BR>
+5.Cruise Control<BR>
+6.Power Outlets 12V<BR>
+7.Rear Parking Sensor<BR>
+8.Rear Parking Camera<BR>
+9.Electrically Adjustable Rear View Mirror<BR>
+10.Push Start Stop Button<BR>
+11.Height Adjustable Driver Seat<BR>
+12.Lumbar Support<BR>
+13.Front Armrest<BR>
+14.Upholstery - Leather<BR>
+15.Front Cup Holders<BR>
+16.Keyless Entry<BR>
+17.Climate Control<BR>
+</TH>
+</TR>
+</p2>
+
+<P><a class="two" href="#c6" >BACK </a> </P>
+
+<H1  CLASS="LAMBORGINI2" id="c4" ><marquee>## 4.LAMBORGINI <SUB><BIG> MURCIELAGO </BIG>  </SUB> ## </marquee></H1>
+<p><marquee> 
+<img src="https://drive.google.com/uc?export=view&id=1xuFqQQk8pnoUE1loEatvUh8_gJzIVMCl" STYLE="FLOAT:RIGHT" width="600" height="400"> 
+<img src="https://drive.google.com/uc?export=view&id=1CUXMKvRBHtAE6wjKzFZW3kaSQVzI7KfR" STYLE="FLOAT:RIGHT" width="600" height="400"> </marquee>  </p>
+<CENTER>
+<H1  CLASS="LAMBORGINI2" >## 4.LAMBORGINI <SUB><BIG> MURCIELAGO </BIG>  </SUB> ## </H2>
+
+ <HR> 
+ <p style=font-size:18px ;">       #1 ON-ROAD Price<BR>
+      RS: 8.45 Crore<BR>
+<HR>
+
+  <p style=font-size:18px ;">      #2 Ex-showroom<br>
+        RS: 4,34,56,788 <br>
+<HR>
+        <p style=font-size:18px ;">            #3 Insurance<BR>
+                    RS: 78,78,877<BR>
+<HR>
+            <p style=font-size:18px ;">                     #4 RTO Amount<BR>
+                               RS: 67,87,232<BR>
+<HR>
+               <p style=font-size:18px ;">                                #5 TCS<BR>
+                                              RS: 5,23,787<BR>
+<HR><HR>
+</PR>
+</CENTER>
+<H1  CLASS="LAMBORGINI2"> <B>** MURCIEALGO XP 800-5 Features **<B> </H2>
+<HR><HR>
+
+
+
+
+
+
+
+
+
+<CENTER>
+<P2><table border="20" >
+<TR >
+        <TH > <B> SAFETY & SECURITY</B> </TH>
+        
+        <TH > <b> COMFORT AND CONVENIENCE </B></TH>
+        
+</TR>
+<TR>
+<TH>
+
+   1.  Airbags <BR>
+   2.  Passenger Airbags<BR>
+   3.  Side Airbags<BR>
+   4.  ABS<BR>
+   5.  Electronic Brakeforce Distribution<BR>
+   6.  Brake Assist<BR>
+   7.  Hill Assist<BR>
+   8.  Electronic Stability Program<BR>
+   9.  Tractional Control<BR>
+   10. Engine Immobilizer<BR>
+   11. Central Locking<BR>
+   12. Power Door Lock<BR>
+   13. Automatic Headlamps<BR>
+   14. Rain Sensing Wipers<BR>
+   15. Headlamp Beam Adjuster<BR>
+</TH>
+<TH>
+1.Air Conditioner - Automatic Climate Control<BR>
+2.Heater<BR>
+3.Steering Adjustment - Tilt & Telescopic<BR>
+4.Paddle Shift<BR>
+5.Cruise Control<BR>
+6.Power Outlets 12V<BR>
+7.Rear Parking Sensor<BR>
+8.Rear Parking Camera<BR>
+9.Electrically Adjustable Rear View Mirror<BR>
+10.Push Start Stop Button<BR>
+11.Height Adjustable Driver Seat<BR>
+12.Lumbar Support<BR>
+13.Front Armrest<BR>
+14.Upholstery - Leather<BR>
+15.Front Cup Holders<BR>
+16.Keyless Entry<BR>
+17.Climate Control<BR>
+   
+</TH>
+</TR>
+</p2>
+
+
+<P><a class="two" href="#c6" >BACK</a> </P>
+
+<H1  CLASS="LAMBORGINI2" id="c5" ><marquee>## 5.LAMBORGINI <SUB><BIG> CENTENARIO </BIG>  </SUB> ## </marquee></H1>
+<p><marquee> 
+<img src="https://drive.google.com/uc?export=view&id=1SDKPNdKjXhsDUDGrkzjZWhD2VaUTEjQ1" STYLE="FLOAT:RIGHT" width="600" height="400"> 
+<img src="https://drive.google.com/uc?export=view&id=1CCWG0Lum7CeHAiYQyNy6ygaU8CaseX66" STYLE="FLOAT:RIGHT" width="600" height="400"> </marquee>  </p>
+<CENTER>
+<H1  CLASS="LAMBORGINI2"  >## 5.LAMBORGINI <SUB><BIG> CENTENARIO </BIG>  </SUB> ## </H2>
+
+ <HR> 
+ <p style=font-size:18px ;">       #1 ON-ROAD Price<BR>
+      RS: 8.89 Crore<BR>
+<HR>
+
+
+  <p style=font-size:18px ;">      #2 Ex-showroom<br>
+        RS: 7,99,87,878 <br>
+<HR>
+        <p style=font-size:18px ;">            #3 Insurance<BR>
+                    RS: 78,98,590<BR>
+<HR>
+            <p style=font-size:18px ;">                     #4 RTO Amount<BR>
+                               RS: 96,75,423<BR>
+<HR>
+               <p style=font-size:18px ;">                                #5 TCS<BR>
+                                              RS: 8,34,232<BR>
+<HR><HR>
+
+</PR>
+</CENTER>
+<H1  CLASS="LAMBORGINI2"> <B>** CENTENARIO EP 900-8 Features **<B> </H2>
+<HR><HR>
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</BODY>
+</HTML>
+          
+
+ 
+
